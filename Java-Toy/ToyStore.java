@@ -52,10 +52,10 @@ public class ToyStore {
         ToyStore store = new ToyStore();
         List<Toy> toys = new ArrayList<>();
         
-        toys.add(new Toy(1, "Кукла", 10, 20));
-        toys.add(new Toy(2, "Мяч", 20, 30));
-        toys.add(new Toy(3, "Кубики", 15, 10));
-        toys.add(new Toy(4, "Машинка", 5, 15));
+        toys.add(new Toy(1, "Шрек", 10, 20));
+        toys.add(new Toy(2, "Маша и Медведь", 20, 30));
+        toys.add(new Toy(3, "Мяч футбольный", 15, 10));
+        toys.add(new Toy(4, "Кукла Барби", 5, 15));
 
         Scanner scanner = new Scanner(System.in);
 
