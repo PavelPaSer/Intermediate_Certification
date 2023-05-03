@@ -8,12 +8,12 @@ public class ToyStore {
         }
         
         int randomNumber = (int) (Math.random() * totalWeight);
-        int accumulatedWeight = 0;
+        int finalWeight = 0;
         for (Toy toy : toys) {
-            accumulatedWeight += toy.getWeight();
-            if (randomNumber < accumulatedWeight) {
+            finalWeight += toy.getWeight();
+            if (randomNumber < finalWeight) {
                 System.out.println("Поздравляем! Вы выиграли " + toy.getName());
-                toy.decrementQuantity();
+                toy.lessQuantity();
                 return;
             }
         }

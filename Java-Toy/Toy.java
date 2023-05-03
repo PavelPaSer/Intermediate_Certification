@@ -27,7 +27,7 @@ public class Toy {
         return weight;
     }
 
-    public void decrementQuantity() {
+    public void lessQuantity() {
         quantity--;
     }
 }
